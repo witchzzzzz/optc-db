@@ -12,6 +12,10 @@
     <span ng-repeat="(n,class) in [ 'Fighter', 'Shooter', 'Slasher', 'Striker', 'Free Spirit', 'Cerebral', 'Powerhouse', 'Driven', 'Evolver', 'Booster' ]"
         class="filter width-6 class" ng-click="onClassClick($event,class)"
         ng-class="{ active: filters.classes.indexOf(class) > -1 }">{{class}}</span>
+    <span class="filter width-12 exc" ng-model="filters.strictclass" ng-class="{ active: filters.strictclass }"
+    ng-click="filters.strictclass = !filters.strictclass">Selected class(es) only</span>
+    <span class="filter width-12 exc" ng-model="filters.hide1class" ng-class="{ active: filters.hide1class }"
+    ng-click="filters.hide1class = !filters.hide1class">Hide single-class chars</span>
 </div>
 
 

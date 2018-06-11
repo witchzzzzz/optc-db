@@ -124,7 +124,11 @@ window.CrunchUtils.typeSort = function(array, typeMultiplier, types) {
     return result;
 };
 
-window.CrunchUtils.getOrbMultiplier = function(orb, type, uclass, baseMultiplier, boostedMultiplier, captains) {
+window.CrunchUtils.getOrbMultiplier = function(orb, type, uclass, baseMultiplier, boostedMultiplier, captains, effectName) {
+    if(effectName == 'STR Orbs Beneficial'){
+        if (orb == 'str') return boostedMultiplier;
+        if (orb == 0.5 && type == 'DEX') return boostedMultiplier;
+    }
     if(window.specials[1221].turnedOn || window.specials[1222].turnedOn){
         if (orb == 'str') return boostedMultiplier;
         if (orb == 0.5 && type == 'DEX') return boostedMultiplier;
@@ -192,6 +196,11 @@ window.CrunchUtils.getOrbMultiplier = function(orb, type, uclass, baseMultiplier
     }
     if(window.specials[1379].turnedOn || window.specials[1380].turnedOn){
         if(uclass.has("Cerebral") || uclass.has("Free Spirit")){
+            if (orb == 'meat') return boostedMultiplier;
+        }
+    }
+    if(window.specials[2128].turnedOn){
+        if(uclass.has("Slasher") || uclass.has("Striker")){
             if (orb == 'meat') return boostedMultiplier;
         }
     }

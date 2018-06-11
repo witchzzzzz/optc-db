@@ -806,8 +806,8 @@ window.drops = {
             '08': [ 2002, 1627 ],
             '09': [  ],
             '10': [ 2005 ],
-            '11': [ 1401 ],
-            '12': [ 2005, 1737 ],
+            '11': [ 1400 ],
+            '12': [ 2005, 1736 ],
         },
         
         {
@@ -1444,8 +1444,8 @@ window.drops = {
             nakama: 2091800,
             gamewith: 23687,
             condition: 'You can only bring DEX units',
-            'Japan': [ 917, 919, 920, -920, -791, -756, -720, -707, -705, -542, -541, -522, -1117 ],
-            'Global': [ 917, 919, 920, -920, -506, -756, -720, -707, -705, -542, -541, -522, -1117 ]
+            'Japan': [ 917, 919, 920, -920, -791, -756, -720, -707, -705, -542, -541, -522, -1117, -1927 ],
+            'Global': [ 917, 919, 920, -920, -506, -756, -720, -707, -705, -542, -541, -522, -1117, -1927 ]
         },
         
         {
@@ -1562,7 +1562,7 @@ window.drops = {
             nakama: 2113700,
             gamewith: 34515,
             condition: 'Only [STR], [QCK], [DEX], [INT], and [PSY] orbs appear',
-            'All Difficulties': [ 1136, 1137, 1138, 1139, -935, -643, -673, -894, -943, -995, -615, -705, -704 ]
+            'All Difficulties': [ 1136, 1137, 1138, 1139, -935, -643, -673, -894, -943, -995, -615, -705, -704, -2066 ]
         },
         
         {
@@ -1601,7 +1601,7 @@ window.drops = {
             nakama: 2124200,
             gamewith: 37425,
             condition: 'Free Spirit Characters have their cooldowns reduced by 10 turns at the start of the fight',
-            'All Difficulties': [ 1241, 1243, -1035, -965, -1031, -1081, -754, -966, -502, -707, -955 ]
+            'All Difficulties': [ 1241, 1243, -1035, -965, -1031, -1081, -754, -966, -502, -707, -955, -1928 ]
         },
         
         {
@@ -1621,7 +1621,7 @@ window.drops = {
             nakama: 2128700,
             gamewith: 39522,
             condition: 'Child-like characters get their ATK and HP boosted by 3.5x, RCV by 1.5x, and cooldowns reduced by 7 turns at the start of the fight',
-            'All Difficulties': [ 1286, 1288, 1290, -963, -1045, -251, -760, -1083, -1129, -506, -1062, -702 ],
+            'All Difficulties': [ 1286, 1288, 1290, -963, -1045, -251, -760, -1083, -1129, -506, -1062, -702, -2001 ],
         },
         
         {
@@ -1651,7 +1651,7 @@ window.drops = {
             nakama: 2133200,
             gamewith: 44747,
             condition: 'Striker characters are Silenced for 99 turns and have their ATK reduced by a variable amount. (70% on 30 stamina)',
-            'All Difficulties': [ 1331, 1333, 1334, -720, -1186, -1190, -756, -1188, -1151, -1153, -738 ]
+            'All Difficulties': [ 1331, 1333, 1334, -720, -1186, -1190, -756, -1188, -1151, -1153, -738, -1927 ]
         },
         
         {
@@ -1700,7 +1700,7 @@ window.drops = {
             nakama: 2142600,
             gamewith: 49862,
             condition: 'You can only bring DEX units',
-            'All Difficulties': [ 1425, 1427, 1428, -1240, -1272, -1270, -1227, -1224, -872, -878, -255, -812 ]
+            'All Difficulties': [ 1425, 1427, 1428, -1240, -1272, -1270, -1227, -1224, -872, -878, -255, -812, -2034 ]
         },
         
         {
@@ -1710,7 +1710,7 @@ window.drops = {
             nakama: 2145000,
             gamewith: 50895,
             condition: 'You can only bring STR units',
-            'All Difficulties': [ 1449, 1451, -935, -1278, -1318, -1324, -880, -876, -259, -1226, -814 ]
+            'All Difficulties': [ 1449, 1451, -935, -1278, -1318, -1324, -880, -876, -259, -1226, -814, -2066 ]
         },
         
         {
@@ -1749,7 +1749,7 @@ window.drops = {
             nakama: 2154700,
             gamewith: 54302,
             condition: 'Strawhat Pirates get ATK, HP, and RCV boosted by 1.5x and reduces cooldown of specials by 9 turns at the start of the fight',
-            'All Difficulties': [ 1546, 1548, -1035, -1410, -1406, -939, -943, -312, -1279, -1282, -1447, -20 ],
+            'All Difficulties': [ 1546, 1548, -1035, -1410, -1406, -939, -943, -312, -1279, -1282, -1447, -20, -1928 ],
         },
         
         {
@@ -1768,7 +1768,7 @@ window.drops = {
             global: true,
             nakama: 2158100,
             gamewith: 56038,
-            'All Difficulties': [ 1580, 1582, -1391, -357, -910, -995, -896, -1436, -1444, -890, -1342, -1551 ],
+            'All Difficulties': [ 1580, 1582, -1391, -357, -910, -995, -896, -1436, -1444, -890, -1342, -1551, -2035 ],
         },
         
         {
@@ -1777,8 +1777,8 @@ window.drops = {
             global: true,
             nakama: 2159700,
             gamewith: 57039,
-            'Japan': [ 1596, 1598, 1599, -1045, -359, -999, -1033, -1550, -739, -1438, -1440, -893, -1343 ],
-            'Global': [ 1596, 1598, 1599, -1045, -1751, -1922, -359, -999, -1033, -1550, -739, -1438, -1440, -893, -1343 ],
+            'Japan': [ 1596, 1598, 1599, -1045, -359, -999, -1033, -1550, -739, -1438, -1440, -893, -1343, -2001 ],
+            'Global': [ 1596, 1598, 1599, -1045, -1751, -1922, -359, -999, -1033, -1550, -739, -1438, -1440, -893, -1343, -2001 ],
         },
         
         {
@@ -1876,7 +1876,7 @@ window.drops = {
             nakama: 2181200,
             condition: 'Powerhouse Characters recieves a 99 turn paralysis and a 90% ATK down from stage 4 onwards on 15 and 30 stamina',
             gamewith: 71416,
-            'All Difficulties': [ 1811, 1809, -1240, -1575, -1658, -1232, -1238, -1117, -522, -1119, -524, -1504, -1503 ]
+            'All Difficulties': [ 1811, 1809, -1240, -1575, -1658, -1232, -1238, -1117, -522, -1119, -524, -1504, -1503, -2034 ]
         },
         
         {
@@ -1904,7 +1904,7 @@ window.drops = {
             global: true,
             nakama: 2185500,
             gamewith: 79678,
-            'All Difficulties': [ 1854, 1856, -1652, -1272, -1278, -1620, -1702, -1558 ]
+            'All Difficulties': [ 1854, 1856, -1652, -1272, -1278, -1621, -1702, -1558 ]
         },
         
         {
@@ -1998,7 +1998,7 @@ window.drops = {
         },
         
         {
-            name: 'Strawhat Pirates Pizza Party!! Part 1',
+            name: 'Strawhat Pirates Pizza Party!! Lunch',
             thumb: 2087,
             nakama: null,
             gamewith: 102409,
@@ -2006,11 +2006,19 @@ window.drops = {
         },
         
         {
-            name: 'Strawhat Pirates Pizza Party!! Part 2',
+            name: 'Strawhat Pirates Pizza Party!! Dinner',
             thumb: 2092,
             nakama: null,
+            gamewith: 106868,
+            'All Difficulties': [ 2091, 2092, 2093, 2094, 2095, -1935, -1436, -1438, -1926, -1955, -1715 ]
+        },
+        
+        {
+            name: 'Brûlée\'s Gibier Party',
+            thumb: 2024,
+            nakama: null,
             gamewith: null,
-            'All Difficulties': [ 2092, 2093, 2094, 2095 ]
+            'All Difficulties': [ 2127, 2128, 2129, 2130, -1473, -1477, -1974, -1953, -1957, -1717 ]
         },
         
     ],
@@ -2174,9 +2182,10 @@ window.drops = {
         {
             name: 'Clash Neo!! Eneru',
             thumb: 1930,
+            global: true,
             nakama: 4193000,
             gamewith: 86020,
-            condition: 'Take 300 damage per character in Environmental Lightning Damage every 3 turns. Luffy is immune to lightning damage. 1 Expert version, 1 Master version, and 3 different Ultimate versions with different conditions. Expert/Master: Driven/Powerhouse/Cerebral Only. Can only complete 10 times each. Ultimate: Driven Only, Powerhouse Only, and Cerebral Only',
+            condition: 'Take 300 damage per character in Environmental Lightning Damage every 3 turns. Luffy is immune to lightning damage. 1 Expert version, 1 Master version, and 3 different Ultimate versions with different conditions. Expert/Master: Driven/Powerhouse/Cerebral Only. Ultimate: Driven Only, Powerhouse Only, and Cerebral Only',
             Ultimate: [ 85, 111, 118, 301, 1929 ],
             Master: [ 85, 111, 118, 1929 ] ,
             Expert: [ 111, 118, 1929 ]
@@ -2548,7 +2557,7 @@ window.drops = {
             slefty: 'coliseums',
             Exhibition: [ 776, 778, 803, 832, 834, 859, 861, 883, 902, 904, 925, 927, 952, 984, 1017, 1019, 1103, 1105, 1195, 1197, 1221, 1252, 1253, 1293, 1311, 1339, 1340, 1377, 1402, 1423, 1424, 1457, 1459, 1488, 1490, 1526, 1528, 1552, 1585, 1603, 1629, 1860 ],
             Underground: [ 776, 778, 803, 832, 834, 859, 861, 883, 902, 904, 925, 927, 952, 984, 1017, 1019, 1103, 1105, 1195, 1197, 1221, 1252, 1253, 1293, 1311, 1339, 1340, 1377, 1402, 1423, 1424, 1457, 1459, 1488, 1490, 1526, 1528, 1552, 1585, 1603, 1629, 1791, 1860, 1896, 1977, 2110 ],
-            Chaos: [ 776, 778, 780, 803, 805, 830, 832, 834, 859, 861, 881, 883, 900, 902, 923, 925, 950, 982, 984, 1017, 1015, 1040, 1042, 1086, 1088, 1090, 1101, 1103, 1105, 1140, 1142, 1144, 1195, 1219, 1221, 1250, 1252, 1291, 1293, 1309, 1311, 1337, 1339, 1340, 1375, 1377, 1400, 1421, 1423, 1455, 1457, 1486, 1488, 1525, 1526, 1528, 1552, 1554, 1583, 1585, 1601, 1603, 1627, 1629, 1666, 1693, 1732, 1791, 1827, 1860, 1896, 1944, 1977, 2036, 2110 ],
+            Chaos: [ 776, 778, 780, 803, 805, 830, 832, 834, 859, 861, 881, 883, 900, 902, 923, 925, 950, 982, 984, 1017, 1015, 1040, 1042, 1086, 1088, 1090, 1101, 1103, 1105, 1140, 1142, 1144, 1195, 1219, 1221, 1250, 1252, 1291, 1293, 1309, 1311, 1337, 1339, 1340, 1375, 1377, 1400, 1421, 1423, 1455, 1457, 1486, 1488, 1525, 1526, 1528, 1552, 1554, 1583, 1585, 1601, 1603, 1627, 1629, 1666, 1693, 1732, 1791, 1827, 1860, 1896, 1944, 1977, 2036, 2110, 2122 ],
             Neo: [ 1862, 1898, 1975, 2016 ]
         },
         
@@ -2587,9 +2596,10 @@ window.drops = {
         {
             name: 'Luffy: Gear 4th',
             thumb: 1916,
+            global: true,
 			nakama: 8191600,
             gamewith: 85567,
-            'Raging Sea': [ 1915 ]
+            'Calm Sea': [ 1915 ]
         },
 
         {
@@ -2910,7 +2920,7 @@ window.drops = {
             showManual: true,
             condition: 'High chance of dropping 6* skillbooks.',
             'Blackbeard': [ -261, -649, -1268, -1413, -1698, -251, -255, -259, -449, -455, -647, -1186, -1190, -1270, -1272, -1276, -1278 ],
-            'Zoro': [ -718, -1085, -1362, -1391, -1881, -1921, -2035, 310, -314, -357, -359, -361, -363, -365, -1540, -1612, -1616, -1618, -1706 ],
+            'Zoro': [ -718, -1085, -1362, -1391, -1881, -1921, -2035, -310, -314, -357, -359, -361, -363, -365, -1540, -1612, -1616, -1618, -1706 ],
             'Shirahoshi': [ -720, -935, -1434, -1473, -1880, -1927, -2066, -1436, -1438, -1440, -1442, -1444, -14475, -1477, -1479, -1481, -1483, -1700 ],
             'Nekomamushi': [ -530, -748, -1571, -1652, -1663, -1707, -524, -1119, -558, -1208, -1370, -16, -1446, -1573, -1828, -1577, -1579, -1660, -1658, -1656, -1654 ],
             'Trafalgar Law': [ -1001, -1045, -1751, -1763, -1922, -2001, -840, -842, -844, -846, -872, -874, -876, -878, -993, -999, -1749, -1875 ],
@@ -3100,6 +3110,14 @@ window.drops = {
             nakama: 7126800,
             gamewith: 59779,
             completion: 'Ship: Blackbeard Pirates Ship',
+        },
+        
+        {
+            name: 'Forest of Training: Gang',
+            thumb: 1016,
+            nakama: null,
+            gamewith: 107299,
+            completion: 'Ship: Nostra Castello',
         },
 
    ]
